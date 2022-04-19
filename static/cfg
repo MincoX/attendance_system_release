@@ -1,0 +1,21 @@
+log_level: debug
+
+window:
+  window_name: Attendance
+  window_height: 480
+  window_width: 640
+
+web_server:
+  port: 16888
+  admin_name: tester
+  admin_pwd: MTIzNDU2
+  secret_key: attendance_system
+
+recognise_server:
+  cuda: false
+  detect_interval: 1
+  label_duration: 0.6
+  snap_interval: 6
+  attend_interval: 300
+  confidence: 0.5
+  recognition_threshold: 0.85
